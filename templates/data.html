@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block table-contents %}
+    {% for row in rows %}
+    <tr class='table-row'>
+        <td class='table-metric-cell'>{{ row.time }}</td>
+        <td class='table-cell'>{{ row.ping }}</td>
+        <td class='table-cell'>{{ row.upload }}</td>
+        <td class='table-cell'>{{ row.download }}</td>
+    </tr>
+    {% endfor %}
+{% endblock %}

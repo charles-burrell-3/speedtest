@@ -1,0 +1,13 @@
+body{ background-color: #D6DFC2; font-family: "Arial", Helvetica, sans-serif}
+h2{ font-size: 16px; margin: auto;}
+p{text-align:center; font-weight:bold;}
+table, th, td{ border: 1px solid #131C25;}
+table{ margin: auto;}
+.header-row{background-color: #456282;}
+.table-row{background-color: #7C9053;}
+.table-metric-cell{font-weight: bold;}
+td{padding: 2px;}
+.header-cell{}
+.table-cell{}
+.table-class{}
+.main-div{background-color: #5E7C5E; border: 1px solid #131C25; width: 50%; margin: auto; padding-bottom: 10px;}

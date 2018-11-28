@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Report for {{ title }}</title>
+        <link rel="stylesheet" type="text/css" href="speedtest.css">
+    </head>
+    <body>
+        <div class='main-div'>
+            <p>{{ title }}</p>
+            <table class='table-class'>
+                <tr class='header-row'>
+                {% for header in headers %}
+                    <th class='header-cell'>{{ header }}</th>
+                {% endfor %}
+                </tr>
+            {%block table-contents %}
+            </table>
+        </div>
+    </body>
+</html>
