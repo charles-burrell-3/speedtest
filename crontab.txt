@@ -1,1 +1,1 @@
-05 * * * * speedtest/speedtester.py
+05 * * * * speedtest/app/speedtester.py

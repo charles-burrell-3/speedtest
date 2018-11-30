@@ -4,9 +4,7 @@ import re
 import subprocess
 from subprocess import Popen
 
-import pandas as pd
-
-from configs import filename
+from app.configs import filename
 
 test_line = 'Ping: 8.945 ms\nDownload: 39.57 Mbit/s\nUpload: 6.23 Mbit/s\n'
 

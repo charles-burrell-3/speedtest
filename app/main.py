@@ -1,8 +1,8 @@
 import dateutil
 import pandas as pd
-
-from configs import filename
 from speedtest_objects import SpeedTestRows
+
+from app.configs import filename
 
 
 #@app.route('/results')
